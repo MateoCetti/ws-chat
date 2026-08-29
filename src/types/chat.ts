@@ -26,3 +26,4 @@ export interface ClientToServerEvents {
   'user:join': (username: string) => void // Register with a username after connecting
   'message:send': (text: string) => void  // Send a chat message
 }
+// xd
